@@ -5,30 +5,43 @@ on:
     - cron: "0 0 * * *"   # 每天 UTC 0 点运行（北京时间早上 8 点）
   workflow_dispatch:       # 允许手动触发
 
+# 直接在 workflow 顶层声明 permissions，确保 GITHUB_TOKEN 有写权限
+permissions:
+  contents: write
+
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
 
     steps:
-      # 拉取代码
       - name: Checkout
         uses: actions/checkout@v4
 
-      # 生成贪吃蛇 SVG 文件
       - name: Generate snake SVGs
         uses: Platane/snk@v3
         with:
           github_user_name: huangcancan-xbc
+          # ?palette=github-dark 是合法参数（用于生成深色版）
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # 推送到 output 分支
+      - name: Show generated files (debug)
+        # 用于在 Actions 日志里确认 dist/ 下实际文件
+        run: |
+          echo "=== SHOW dist ==="
+          ls -la dist || true
+          echo "=== FILE SIZES ==="
+          du -sh dist/* || true
+
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
           build_dir: dist
+          commit_message: "chore: update github contribution snake"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
