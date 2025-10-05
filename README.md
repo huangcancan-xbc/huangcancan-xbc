@@ -48,9 +48,10 @@
 ## 相关网站 Related Websites
 
 - **个人网站（Personal website）**：https://www.minbit.top or https://www.cn.minbit.top
-- **GitHub**: https://github.com/huangcancan-xbc  
-- **CSDN**: https://blog.csdn.net/Huangcancan666?type=blog  
-- **Gitee**: https://gitee.com/huang-cancan-xbc  
+- **GitHub**: https://github.com/huangcancan-xbc
+- **CSDN**: https://blog.csdn.net/Huangcancan666?type=blog
+- **稀土掘金**：https://juejin.cn/user/3230789931118109
+- **Gitee（于 2025/07/12 停止维护）**: https://gitee.com/huang-cancan-xbc
 
 <!-- 
   🐍 贪吃蛇贡献图
