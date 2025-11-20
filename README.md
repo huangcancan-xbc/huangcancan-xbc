@@ -11,53 +11,43 @@
 
 <!-- 
   敲代码 GIF 图片
-  必须放在公开目录（如 assets/images/），确保 raw.githubusercontent.com 链接可直接访问
 -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/huangcancan-xbc/huangcancan-xbc/main/assets/images/coding.gif"
        alt="Coding GIF" width="500" />
 </p>
 
-<!-- 
-  技能统计：语言占比 + 个人数据
-  注意：src= 后不能有空格！否则会报 "Incorrect layout input"
--->
 ## 技能概述 Skills
 
 <table>
   <tr>
     <td>
-      <img align="left" 
-           width="330" 
-           src="https://github-readme-stats.vercel.app/api/top-langs/?username=huangcancan-xbc&layout=compact" 
-           alt="Top Languages" />
+      <img 
+        align="left"
+        width="330"
+        src="https://github-readme-stats-kappa-seven-70.vercel.app/api/top-langs/?username=huangcancan-xbc&layout=compact"
+        alt="Top Languages"
+      />
     </td>
     <td>
-      <img align="right" 
-           width="420" 
-           src="https://github-readme-stats.vercel.app/api?username=huangcancan-xbc&show_icons=true&theme=synthwave" 
-           alt="GitHub Stats" />
+      <img 
+        align="right"
+        width="420"
+        src="https://github-readme-stats-kappa-seven-70.vercel.app/api?username=huangcancan-xbc&show_icons=true&theme=synthwave"
+        alt="GitHub Stats"
+      />
     </td>
   </tr>
 </table>
 
-<!-- 
-  🔗 相关链接
-  纯文本链接，确保格式干净
--->
 ## 相关网站 Related Websites
 
-- **个人网站（Personal website）**：https://www.minbit.top or https://www.cn.minbit.top
+- **个人网站**：https://www.minbit.top or https://www.cn.minbit.top
 - **GitHub**: https://github.com/huangcancan-xbc
 - **CSDN**: https://blog.csdn.net/Huangcancan666?type=blog
 - **稀土掘金**：https://juejin.cn/user/3230789931118109
 - **Gitee（于 2025/07/12 停止维护）**: https://gitee.com/huang-cancan-xbc
 
-<!-- 
-  🐍 贪吃蛇贡献图
-  依赖 GitHub Action 生成 output 分支
-  确保已开启 Actions 写权限，并成功运行 snake.yml
--->
 ## 贡献图 Contribution Graph
 
 <p align="center">
