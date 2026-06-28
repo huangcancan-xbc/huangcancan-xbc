@@ -2,7 +2,7 @@
 
 <div align="center">
   <!-- Dynamic Greeting -->
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=25&duration=4000&pause=1000&color=00F5D4&center=true&vCenter=true&width=900&lines=Hello+World%2C+I%27m+Huang+Cancan.;Welcome+to+My+GitHub%21;Build+something+interesting%2C+valuable%2C+and+damn+cool%21" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=25&duration=4000&pause=1000&color=00F5D4&center=true&vCenter=true&width=900&lines=Hello+World%2C+I%27m+MinBit.;Welcome+to+My+GitHub%21;Build+something+interesting%2C+valuable%2C+and+damn+cool%21" alt="Typing SVG" />
 
   <!-- Coding GIF -->
   <br/>
